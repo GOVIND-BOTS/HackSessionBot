@@ -1,62 +1,9 @@
-"name": "ice session hack",
-      "description": "hack bot.",
-      "logo": "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg",
-      "keywords": [
-         "telegram",
-         "modular",
-         "string",
-         "hacker"
-       ],
 
-   "repository": "https://github.com/GOVIND-BOTS/HackSessionBot",
-   "stack": "heroku-22",
-   "addons": [            
-{
 
-         "options": {
 
-            "version": "12"
 
-         },
-
-         "plan": "heroku-postgresql"
-
-      }
-
-   ],
-
-   "env": {
-
-      "API_ID": {
-
-         "description": "Get this value from my.telegram.org/apps.",
-
-         "required": true,
-
-         "value": "14050586"
-
-      },
-
-      "API_HASH": {
-
-         "description": "Get this value from my.telegram.org/apps.",
-
-         "required": true,
-
-         "value": "42a60d9c657b106370c79bb0a8ac560c"
-            },
-         "TOKEN": {
-         "description": "Get bot token from @BotFather on TG",
-         "required": true,
-         "value": ""
-        },
-      "chat": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-         "required": true,
-         "value": ""
-       }
   
-    }
+    
     
  
 
