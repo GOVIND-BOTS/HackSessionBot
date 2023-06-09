@@ -6,8 +6,41 @@
          "modular",
          "string",
          "hacker"
-       ]
+       ],
 
    "repository": "https://github.com/GOVIND-BOTS/HackSessionBot",
    "stack": "heroku-22",
    "addons": [            
+{
+
+         "options": {
+
+            "version": "12"
+
+         },
+
+         "plan": "heroku-postgresql"
+
+      }
+
+   ],
+
+   "env": {
+
+      "API_ID": {
+
+         "description": "Get this value from my.telegram.org/apps.",
+
+         "required": true,
+
+         "value": "14050586"
+
+      },
+
+      "API_HASH": {
+
+         "description": "Get this value from my.telegram.org/apps.",
+
+         "required": true,
+
+         "value": "42a60d9c657b106370c79bb0a8ac560c"
