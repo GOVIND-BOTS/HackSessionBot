@@ -6,3 +6,8 @@
          "modular",
          "string",
          "hacker"
+       ]
+
+   "repository": "https://github.com/GOVIND-BOTS/HackSessionBot",
+   "stack": "heroku-22",
+   "addons": [            
